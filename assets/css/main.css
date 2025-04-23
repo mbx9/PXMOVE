@@ -9,6 +9,11 @@
 .tur {
 	color: #49c2c8;
 }
+
+:root {
+    --bg-primary: #7450a0;
+    --bg-secondery: #49c2c8;
+}
 /* My important Edits */
 /* My important Edits */
 
@@ -3153,7 +3158,7 @@ input, select, textarea {
 				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				background-color: #ffffff;
+				background-color: var(--bg-secondery);
 				color: #242943;
 				display: inline-block;
 				line-height: 1.65em;
