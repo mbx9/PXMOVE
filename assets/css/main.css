@@ -2375,7 +2375,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			ul.icons li {
-				padding: 0 0.75em 0 0;
+				padding: 0 0 0 0.75em;
 			}
 
 		}
